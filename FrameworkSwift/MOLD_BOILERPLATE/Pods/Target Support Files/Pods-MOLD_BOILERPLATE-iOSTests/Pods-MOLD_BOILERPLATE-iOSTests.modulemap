@@ -1,0 +1,6 @@
+framework module Pods_MOLD_BOILERPLATE_iOSTests {
+  umbrella header "Pods-MOLD_BOILERPLATE-iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

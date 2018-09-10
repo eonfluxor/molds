@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+def common_pods!
+    
+end
+
+
+target 'MOLD_BOILERPLATE-iOS' do
+    #use_frameworks!
+    common_pods!
+    
+    target 'MOLD_BOILERPLATE-iOSTests' do
+        common_pods!
+    end
+    
+end
+
+target 'MOLD_BOILERPLATE-macOS' do
+    #use_frameworks!
+    
+    common_pods!
+    target 'MOLD_BOILERPLATE-macOSTests' do
+       common_pods!
+    end
+    
+end
+
+target 'MOLD_BOILERPLATE-tvOS' do
+    #use_frameworks!
+    
+    common_pods!
+    
+    target 'MOLD_BOILERPLATE-tvOSTests' do
+        common_pods!
+    end
+    
+end
