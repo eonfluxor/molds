@@ -1,6 +1,0 @@
-framework module Pods_BOILER_PLATE_TEMPLATE_iOS {
-  umbrella header "Pods-BOILER_PLATE_TEMPLATE-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
