@@ -2,37 +2,52 @@
 # platform :ios, '9.0'
 
 def common_pods!
-    
+ pod 'Delayed','~>2.2.2'
 end
 
-
 target 'MOLD_BOILERPLATE-iOS' do
-    #use_frameworks!
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MOLD_BOILERPLATE-iOS
+  common_pods!
+  
+  target 'MOLD_BOILERPLATE-iOSTests' do
+    inherit! :search_paths
+    # Pods for testing
     common_pods!
-    
-    target 'MOLD_BOILERPLATE-iOSTests' do
-        common_pods!
-    end
-    
+  end
+
 end
 
 target 'MOLD_BOILERPLATE-macOS' do
-    #use_frameworks!
-    
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MOLD_BOILERPLATE-macOS
+  common_pods!
+  
+  target 'MOLD_BOILERPLATE-macOSTests' do
+    inherit! :search_paths
+    # Pods for testing
     common_pods!
-    target 'MOLD_BOILERPLATE-macOSTests' do
-       common_pods!
-    end
     
+  end
+
 end
 
 target 'MOLD_BOILERPLATE-tvOS' do
-    #use_frameworks!
-    
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MOLD_BOILERPLATE-tvOS
+  common_pods!
+  
+  target 'MOLD_BOILERPLATE-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
     common_pods!
     
-    target 'MOLD_BOILERPLATE-tvOSTests' do
-        common_pods!
-    end
-    
+  end
+
 end
