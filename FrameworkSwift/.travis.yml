@@ -18,6 +18,7 @@ env:
 before_script:
 - cd MOLD_BOILERPLATE
 - gem install cocoapods
+- pod repo update
 - pod install
 script:
 - set -o pipefail
