@@ -1,6 +1,0 @@
-framework module Pods_MOLD_BOILERPLATE_macOS {
-  umbrella header "Pods-MOLD_BOILERPLATE-macOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

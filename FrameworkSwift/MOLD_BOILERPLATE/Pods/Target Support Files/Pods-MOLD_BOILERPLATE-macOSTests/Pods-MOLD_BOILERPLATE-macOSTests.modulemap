@@ -1,6 +1,0 @@
-framework module Pods_MOLD_BOILERPLATE_macOSTests {
-  umbrella header "Pods-MOLD_BOILERPLATE-macOSTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
