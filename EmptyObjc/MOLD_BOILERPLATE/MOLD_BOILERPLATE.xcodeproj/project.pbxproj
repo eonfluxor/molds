@@ -7,44 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26B8070E214DC740008091C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8070D214DC740008091C2 /* AppDelegate.swift */; };
-		26B80710214DC740008091C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8070F214DC740008091C2 /* ViewController.swift */; };
-		26B80715214DC740008091C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B80714214DC740008091C2 /* Assets.xcassets */; };
-		26B80718214DC740008091C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B80716214DC740008091C2 /* LaunchScreen.storyboard */; };
-		26B80723214DC740008091C2 /* MOLD_BOILERPLATETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B80722214DC740008091C2 /* MOLD_BOILERPLATETests.swift */; };
+		26B806B3214DC3E1008091C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B806B2214DC3E1008091C2 /* AppDelegate.m */; };
+		26B806B6214DC3E1008091C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B806B5214DC3E1008091C2 /* ViewController.m */; };
+		26B806BB214DC3E2008091C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B806BA214DC3E2008091C2 /* Assets.xcassets */; };
+		26B806BE214DC3E2008091C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B806BC214DC3E2008091C2 /* LaunchScreen.storyboard */; };
+		26B806C1214DC3E2008091C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B806C0214DC3E2008091C2 /* main.m */; };
+		26B806CB214DC3E2008091C2 /* MOLD_BOILERPLATETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B806CA214DC3E2008091C2 /* MOLD_BOILERPLATETests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26B8071F214DC740008091C2 /* PBXContainerItemProxy */ = {
+		26B806C7214DC3E2008091C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26B80702214DC740008091C2 /* Project object */;
+			containerPortal = 26B806A6214DC3E1008091C2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26B80709214DC740008091C2;
+			remoteGlobalIDString = 26B806AD214DC3E1008091C2;
 			remoteInfo = MOLD_BOILERPLATE;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26B8070A214DC740008091C2 /* MOLD_BOILERPLATE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLD_BOILERPLATE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B8070D214DC740008091C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26B8070F214DC740008091C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26B80714214DC740008091C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26B80717214DC740008091C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		26B80719214DC740008091C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26B8071E214DC740008091C2 /* MOLD_BOILERPLATETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOLD_BOILERPLATETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B80722214DC740008091C2 /* MOLD_BOILERPLATETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOLD_BOILERPLATETests.swift; sourceTree = "<group>"; };
-		26B80724214DC740008091C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B806AE214DC3E1008091C2 /* MOLD_BOILERPLATE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLD_BOILERPLATE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B806B1214DC3E1008091C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26B806B2214DC3E1008091C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26B806B4214DC3E1008091C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26B806B5214DC3E1008091C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26B806BA214DC3E2008091C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B806BD214DC3E2008091C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26B806BF214DC3E2008091C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B806C0214DC3E2008091C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26B806C6214DC3E2008091C2 /* MOLD_BOILERPLATETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOLD_BOILERPLATETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B806CA214DC3E2008091C2 /* MOLD_BOILERPLATETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOLD_BOILERPLATETests.m; sourceTree = "<group>"; };
+		26B806CC214DC3E2008091C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26B80707214DC740008091C2 /* Frameworks */ = {
+		26B806AB214DC3E1008091C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B8071B214DC740008091C2 /* Frameworks */ = {
+		26B806C3214DC3E2008091C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,41 +58,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26B80701214DC740008091C2 = {
+		26B806A5214DC3E1008091C2 = {
 			isa = PBXGroup;
 			children = (
-				26B8070C214DC740008091C2 /* MOLD_BOILERPLATE */,
-				26B80721214DC740008091C2 /* MOLD_BOILERPLATETests */,
-				26B8070B214DC740008091C2 /* Products */,
+				26B806B0214DC3E1008091C2 /* MOLD_BOILERPLATE */,
+				26B806C9214DC3E2008091C2 /* MOLD_BOILERPLATETests */,
+				26B806AF214DC3E1008091C2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		26B8070B214DC740008091C2 /* Products */ = {
+		26B806AF214DC3E1008091C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26B8070A214DC740008091C2 /* MOLD_BOILERPLATE.app */,
-				26B8071E214DC740008091C2 /* MOLD_BOILERPLATETests.xctest */,
+				26B806AE214DC3E1008091C2 /* MOLD_BOILERPLATE.app */,
+				26B806C6214DC3E2008091C2 /* MOLD_BOILERPLATETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26B8070C214DC740008091C2 /* MOLD_BOILERPLATE */ = {
+		26B806B0214DC3E1008091C2 /* MOLD_BOILERPLATE */ = {
 			isa = PBXGroup;
 			children = (
-				26B8070D214DC740008091C2 /* AppDelegate.swift */,
-				26B8070F214DC740008091C2 /* ViewController.swift */,
-				26B80714214DC740008091C2 /* Assets.xcassets */,
-				26B80716214DC740008091C2 /* LaunchScreen.storyboard */,
-				26B80719214DC740008091C2 /* Info.plist */,
+				26B806B1214DC3E1008091C2 /* AppDelegate.h */,
+				26B806B2214DC3E1008091C2 /* AppDelegate.m */,
+				26B806B4214DC3E1008091C2 /* ViewController.h */,
+				26B806B5214DC3E1008091C2 /* ViewController.m */,
+				26B806BA214DC3E2008091C2 /* Assets.xcassets */,
+				26B806BC214DC3E2008091C2 /* LaunchScreen.storyboard */,
+				26B806BF214DC3E2008091C2 /* Info.plist */,
+				26B806C0214DC3E2008091C2 /* main.m */,
 			);
 			path = MOLD_BOILERPLATE;
 			sourceTree = "<group>";
 		};
-		26B80721214DC740008091C2 /* MOLD_BOILERPLATETests */ = {
+		26B806C9214DC3E2008091C2 /* MOLD_BOILERPLATETests */ = {
 			isa = PBXGroup;
 			children = (
-				26B80722214DC740008091C2 /* MOLD_BOILERPLATETests.swift */,
-				26B80724214DC740008091C2 /* Info.plist */,
+				26B806CA214DC3E2008091C2 /* MOLD_BOILERPLATETests.m */,
+				26B806CC214DC3E2008091C2 /* Info.plist */,
 			);
 			path = MOLD_BOILERPLATETests;
 			sourceTree = "<group>";
@@ -96,13 +103,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26B80709214DC740008091C2 /* MOLD_BOILERPLATE */ = {
+		26B806AD214DC3E1008091C2 /* MOLD_BOILERPLATE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26B80727214DC740008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATE" */;
+			buildConfigurationList = 26B806CF214DC3E2008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATE" */;
 			buildPhases = (
-				26B80706214DC740008091C2 /* Sources */,
-				26B80707214DC740008091C2 /* Frameworks */,
-				26B80708214DC740008091C2 /* Resources */,
+				26B806AA214DC3E1008091C2 /* Sources */,
+				26B806AB214DC3E1008091C2 /* Frameworks */,
+				26B806AC214DC3E1008091C2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -110,47 +117,46 @@
 			);
 			name = MOLD_BOILERPLATE;
 			productName = MOLD_BOILERPLATE;
-			productReference = 26B8070A214DC740008091C2 /* MOLD_BOILERPLATE.app */;
+			productReference = 26B806AE214DC3E1008091C2 /* MOLD_BOILERPLATE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26B8071D214DC740008091C2 /* MOLD_BOILERPLATETests */ = {
+		26B806C5214DC3E2008091C2 /* MOLD_BOILERPLATETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26B8072A214DC740008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATETests" */;
+			buildConfigurationList = 26B806D2214DC3E2008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATETests" */;
 			buildPhases = (
-				26B8071A214DC740008091C2 /* Sources */,
-				26B8071B214DC740008091C2 /* Frameworks */,
-				26B8071C214DC740008091C2 /* Resources */,
+				26B806C2214DC3E2008091C2 /* Sources */,
+				26B806C3214DC3E2008091C2 /* Frameworks */,
+				26B806C4214DC3E2008091C2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				26B80720214DC740008091C2 /* PBXTargetDependency */,
+				26B806C8214DC3E2008091C2 /* PBXTargetDependency */,
 			);
 			name = MOLD_BOILERPLATETests;
 			productName = MOLD_BOILERPLATETests;
-			productReference = 26B8071E214DC740008091C2 /* MOLD_BOILERPLATETests.xctest */;
+			productReference = 26B806C6214DC3E2008091C2 /* MOLD_BOILERPLATETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		26B80702214DC740008091C2 /* Project object */ = {
+		26B806A6214DC3E1008091C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = eonflux;
 				TargetAttributes = {
-					26B80709214DC740008091C2 = {
+					26B806AD214DC3E1008091C2 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					26B8071D214DC740008091C2 = {
+					26B806C5214DC3E2008091C2 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 26B80709214DC740008091C2;
+						TestTargetID = 26B806AD214DC3E1008091C2;
 					};
 				};
 			};
-			buildConfigurationList = 26B80705214DC740008091C2 /* Build configuration list for PBXProject "MOLD_BOILERPLATE" */;
+			buildConfigurationList = 26B806A9214DC3E1008091C2 /* Build configuration list for PBXProject "MOLD_BOILERPLATE" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,28 +164,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 26B80701214DC740008091C2;
-			productRefGroup = 26B8070B214DC740008091C2 /* Products */;
+			mainGroup = 26B806A5214DC3E1008091C2;
+			productRefGroup = 26B806AF214DC3E1008091C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26B80709214DC740008091C2 /* MOLD_BOILERPLATE */,
-				26B8071D214DC740008091C2 /* MOLD_BOILERPLATETests */,
+				26B806AD214DC3E1008091C2 /* MOLD_BOILERPLATE */,
+				26B806C5214DC3E2008091C2 /* MOLD_BOILERPLATETests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26B80708214DC740008091C2 /* Resources */ = {
+		26B806AC214DC3E1008091C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B80718214DC740008091C2 /* LaunchScreen.storyboard in Resources */,
-				26B80715214DC740008091C2 /* Assets.xcassets in Resources */,
+				26B806BE214DC3E2008091C2 /* LaunchScreen.storyboard in Resources */,
+				26B806BB214DC3E2008091C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B8071C214DC740008091C2 /* Resources */ = {
+		26B806C4214DC3E2008091C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,38 +195,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26B80706214DC740008091C2 /* Sources */ = {
+		26B806AA214DC3E1008091C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B80710214DC740008091C2 /* ViewController.swift in Sources */,
-				26B8070E214DC740008091C2 /* AppDelegate.swift in Sources */,
+				26B806B6214DC3E1008091C2 /* ViewController.m in Sources */,
+				26B806C1214DC3E2008091C2 /* main.m in Sources */,
+				26B806B3214DC3E1008091C2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B8071A214DC740008091C2 /* Sources */ = {
+		26B806C2214DC3E2008091C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B80723214DC740008091C2 /* MOLD_BOILERPLATETests.swift in Sources */,
+				26B806CB214DC3E2008091C2 /* MOLD_BOILERPLATETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26B80720214DC740008091C2 /* PBXTargetDependency */ = {
+		26B806C8214DC3E2008091C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26B80709214DC740008091C2 /* MOLD_BOILERPLATE */;
-			targetProxy = 26B8071F214DC740008091C2 /* PBXContainerItemProxy */;
+			target = 26B806AD214DC3E1008091C2 /* MOLD_BOILERPLATE */;
+			targetProxy = 26B806C7214DC3E2008091C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		26B80716214DC740008091C2 /* LaunchScreen.storyboard */ = {
+		26B806BC214DC3E2008091C2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26B80717214DC740008091C2 /* Base */,
+				26B806BD214DC3E2008091C2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -228,7 +235,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		26B80725214DC740008091C2 /* Debug */ = {
+		26B806CD214DC3E2008091C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,12 +290,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		26B80726214DC740008091C2 /* Release */ = {
+		26B806CE214DC3E2008091C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,13 +341,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		26B80728214DC740008091C2 /* Debug */ = {
+		26B806D0214DC3E2008091C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,12 +358,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "eonflux.MOLD-BOILERPLATE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		26B80729214DC740008091C2 /* Release */ = {
+		26B806D1214DC3E2008091C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -373,15 +375,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "eonflux.MOLD-BOILERPLATE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		26B8072B214DC740008091C2 /* Debug */ = {
+		26B806D3214DC3E2008091C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MOLD_BOILERPLATETests/Info.plist;
@@ -392,16 +392,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "eonflux.MOLD-BOILERPLATETests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOLD_BOILERPLATE.app/MOLD_BOILERPLATE";
 			};
 			name = Debug;
 		};
-		26B8072C214DC740008091C2 /* Release */ = {
+		26B806D4214DC3E2008091C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MOLD_BOILERPLATETests/Info.plist;
@@ -412,7 +410,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "eonflux.MOLD-BOILERPLATETests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOLD_BOILERPLATE.app/MOLD_BOILERPLATE";
 			};
@@ -421,34 +418,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26B80705214DC740008091C2 /* Build configuration list for PBXProject "MOLD_BOILERPLATE" */ = {
+		26B806A9214DC3E1008091C2 /* Build configuration list for PBXProject "MOLD_BOILERPLATE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26B80725214DC740008091C2 /* Debug */,
-				26B80726214DC740008091C2 /* Release */,
+				26B806CD214DC3E2008091C2 /* Debug */,
+				26B806CE214DC3E2008091C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26B80727214DC740008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATE" */ = {
+		26B806CF214DC3E2008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26B80728214DC740008091C2 /* Debug */,
-				26B80729214DC740008091C2 /* Release */,
+				26B806D0214DC3E2008091C2 /* Debug */,
+				26B806D1214DC3E2008091C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26B8072A214DC740008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATETests" */ = {
+		26B806D2214DC3E2008091C2 /* Build configuration list for PBXNativeTarget "MOLD_BOILERPLATETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26B8072B214DC740008091C2 /* Debug */,
-				26B8072C214DC740008091C2 /* Release */,
+				26B806D3214DC3E2008091C2 /* Debug */,
+				26B806D4214DC3E2008091C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26B80702214DC740008091C2 /* Project object */;
+	rootObject = 26B806A6214DC3E1008091C2 /* Project object */;
 }
